@@ -5,61 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet"> 
     <style>
-      #head{
+       #resume{
+        color: orange;
+        font-weight: bolder;
+       }
+       .heading{
+         text-decoration: none;
+         color: black;
         
-      font-style: italic;
-      font-family: "Madimi One", sans-serif;
-      }
-      #list{
-        font-size: larger;
-        
-      }
-      .para{
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      }
+       }
+       .abc{
+        color: crimson;
+        font-weight: bolder;
+       }
+       .a{
+        text-decoration: none;
+        color: black;
+       }
     </style>
+    
 </head>
 <body>
     <!-- Header section -->
-    <Header>
+    <Header class="svg">
      <p>
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+        <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
             <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
             <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
-          </svg> Vaishnavi Biradar &nbsp;&nbsp;&nbsp;
+          </svg> <span class="abc">Vaishnavi Biradar </span> &nbsp;&nbsp;&nbsp;
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
-          </svg> 9011 5035 52 &nbsp;&nbsp;&nbsp;
+          </svg> <span class="abc">9011 5035 52</span> &nbsp;&nbsp;&nbsp;
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-arrow-down-fill" viewBox="0 0 16 16">
             <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zm.192 8.159 6.57-4.027L8 9.586l1.239-.757.367.225A4.49 4.49 0 0 0 8 12.5c0 .526.09 1.03.256 1.5H2a2 2 0 0 1-1.808-1.144M16 4.697v4.974A4.5 4.5 0 0 0 12.5 8a4.5 4.5 0 0 0-1.965.45l-.338-.207z"/>
             <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.354-1.646a.5.5 0 0 1-.722-.016l-1.149-1.25a.5.5 0 1 1 .737-.676l.28.305V11a.5.5 0 0 1 1 0v1.793l.396-.397a.5.5 0 0 1 .708.708z"/>
-          </svg> vaishnavibiradar895@gmail.com&nbsp;&nbsp;&nbsp;
+          </svg> <span class="abc">vaishnavibiradar895@gmail.com</span>&nbsp;&nbsp;&nbsp;
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-arrow-down-fill" viewBox="0 0 16 16">
             <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1m-1 4v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 11.293V7.5a.5.5 0 0 1 1 0"/>
-          </svg> <a href="assets.html/resume.pdf" download >RESUME</a>
+          </svg> <a href="assets.html/resume.pdf" download id="resume" >RESUME</a>
      </p>
     </Header>
 
     <!-- Navigation section -->
-    <nav>
-      <a href="#home">HOME</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-      <a href="#techstack">TECH STACK</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="#project">PROJECTS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="#education">EDUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="personalDetails.html" target="_blank">PERSONAL DETAILS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="others.html" target="_blank">OTHERS</a>
+    <nav> 
+      <a class="heading" href="#home">HOME</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <a class="heading" href="#techstack">TECH STACK</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="heading" href="#project">PROJECTS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="heading" href="#education">EDUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="heading" href="personalDetails.html" target="_blank">PERSONAL DETAILS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="heading" href="others.html" target="_blank">OTHERS</a>
     </nav>
 
     <!-- Main section -->
     <section>
-        <!-- Home Section -->
+        <!-- Home Section --> 
         <section id="home">
-      <h2 id="head">Professional Summary</h2>
-     <ul id="list">
-        <li>Having 1 year of experience in developing Single page web Applications using Angular 8, <br> HTMl5,CSS3,Bootstrap 5, Javascript, typescript</li>
+      <h2>Professional Summary</h2>
+     <ul>
+        <li style="color: cadetblue;">Having 1 year of experience in developing Single page web Applications using Angular 8, <br> HTMl5,CSS3,Bootstrap 5, Javascript, typescript</li>
         <li>Experience on working with version control system - GIT and Github</li>
         <li>Experience working with JIRA for user stories and bug tracking,</li>
         <li>Strong Debugging & Troubleshooting code experience using Chrome Developer Tool</li>
@@ -69,10 +75,11 @@
         <li>knowledge of NodeJS</li>
         <li>Ability to work with people at all levels in the program in using Chrome Developer Tool for <br> debugging and troubleshooting the code</li>
      </ul>
-     <hr>
+     <hr> 
+
      <!-- Technology stack Section -->
      <section id="techstack">
-        <h2 id="head"> My Technology Stack</h2>
+        <h2> My Technology Stack</h2>
     <table border="1">
       <thead>
         <tr>
@@ -109,11 +116,11 @@
 
     <!-- Projects section -->
     <section id="project">
-        <h2 id="head">Projects Details</h2>
+        <h2>Projects Details</h2>
         
     <hr>
     <p><strong>Name:</strong> &nbsp;<strong><u>Student Management</u></strong>
-    <p><b><u>Environment</u></b> &nbsp;Angular,React.Javascript,HTML,CSS,Bootstrap,GitHub,Agile and JIRA</p>
+    <p><b><u>Environment:</u></b> &nbsp;Angular,React.Javascript,HTML,CSS,Bootstrap,GitHub,Agile and JIRA</p>
     <p><b>Team Size:</b> &nbsp;06 &nbsp;&nbsp;&nbsp;<b>Duration</b> &nbsp;<i>2021</i>-<i>1</i><sup>st</sup>-<i>july till
                 <u>present</u></i>
             <p><b>Project Description:</b>&nbsp;This project is mainly used for student management in colleges, where it
@@ -121,7 +128,7 @@
                 academin activities like score card and attendence</p>
     
     <h2>Roles and Responsibility</h3>    
-     <ul class="para">
+     <ul>
      <li>Designed and Implemented the user interface using HTML5 and CSS3</li>
      <li>Wor closely with backend developers for code integration</li>
      <li>Identify and troubleshooting issues in front end codebase</li>
@@ -129,10 +136,8 @@
      <li>Used JIRA for a bug tracking</li>
      <li>Implemented project using Agile SCRUM methodology, involved in daily stand up calls, sprint retrospective meetings </li>
      <li>involved in fixing technical issues in production environment</li>
-     
-    </ul>
+     </ul>
                   
-        
     </section>
     <hr>
     <!-- Education section -->
